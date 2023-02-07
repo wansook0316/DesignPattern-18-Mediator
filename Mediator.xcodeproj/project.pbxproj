@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		CEF0BCC42991DA3900A73830 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0BCC32991DA3900A73830 /* main.swift */; };
+		CEF0BCDE2991DFFE00A73830 /* Mediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0BCDD2991DFFE00A73830 /* Mediator.swift */; };
+		CEF0BCE22991E05500A73830 /* Participant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0BCE12991E05500A73830 /* Participant.swift */; };
+		CEF0BCE42991E07B00A73830 /* Door.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0BCE32991E07B00A73830 /* Door.swift */; };
+		CEF0BCE62991E1AC00A73830 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0BCE52991E1AC00A73830 /* Window.swift */; };
+		CEF0BCE82991E1D500A73830 /* Boiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0BCE72991E1D500A73830 /* Boiler.swift */; };
+		CEF0BCEA2991E25600A73830 /* AirConditioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0BCE92991E25600A73830 /* AirConditioner.swift */; };
+		CEF0BCEC2991E28700A73830 /* SmartHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0BCEB2991E28700A73830 /* SmartHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,13 @@
 /* Begin PBXFileReference section */
 		CEF0BCC02991DA3900A73830 /* Mediator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Mediator; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF0BCC32991DA3900A73830 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CEF0BCDD2991DFFE00A73830 /* Mediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mediator.swift; sourceTree = "<group>"; };
+		CEF0BCE12991E05500A73830 /* Participant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Participant.swift; sourceTree = "<group>"; };
+		CEF0BCE32991E07B00A73830 /* Door.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Door.swift; sourceTree = "<group>"; };
+		CEF0BCE52991E1AC00A73830 /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
+		CEF0BCE72991E1D500A73830 /* Boiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boiler.swift; sourceTree = "<group>"; };
+		CEF0BCE92991E25600A73830 /* AirConditioner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirConditioner.swift; sourceTree = "<group>"; };
+		CEF0BCEB2991E28700A73830 /* SmartHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,13 @@
 			isa = PBXGroup;
 			children = (
 				CEF0BCC32991DA3900A73830 /* main.swift */,
+				CEF0BCDD2991DFFE00A73830 /* Mediator.swift */,
+				CEF0BCEB2991E28700A73830 /* SmartHome.swift */,
+				CEF0BCE12991E05500A73830 /* Participant.swift */,
+				CEF0BCE32991E07B00A73830 /* Door.swift */,
+				CEF0BCE52991E1AC00A73830 /* Window.swift */,
+				CEF0BCE72991E1D500A73830 /* Boiler.swift */,
+				CEF0BCE92991E25600A73830 /* AirConditioner.swift */,
 			);
 			path = Mediator;
 			sourceTree = "<group>";
@@ -120,7 +141,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF0BCE82991E1D500A73830 /* Boiler.swift in Sources */,
+				CEF0BCEA2991E25600A73830 /* AirConditioner.swift in Sources */,
+				CEF0BCEC2991E28700A73830 /* SmartHome.swift in Sources */,
+				CEF0BCDE2991DFFE00A73830 /* Mediator.swift in Sources */,
+				CEF0BCE62991E1AC00A73830 /* Window.swift in Sources */,
+				CEF0BCE42991E07B00A73830 /* Door.swift in Sources */,
 				CEF0BCC42991DA3900A73830 /* main.swift in Sources */,
+				CEF0BCE22991E05500A73830 /* Participant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
